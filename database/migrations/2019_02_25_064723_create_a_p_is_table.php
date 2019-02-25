@@ -13,15 +13,15 @@ class CreateAPIsTable extends Migration
      */
     public function up()
     {
-        Schema::create('apis', function (Blueprint $table) {
+        Schema::create('a_p_is', function (Blueprint $table) {
             $table->increments('id');
             $table->string('name');
             $table->text('detail');
             $table->integer('price');
             $table->integer('stock');
             $table->integer('discount');
-
             $table->timestamps();
+
         });
     }
 
