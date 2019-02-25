@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a7611d40-d984-4056-b960-d86d07682da0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_02_25_042843_create_a_p_is_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_02_25_042843_create_a_p_is_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_02_25_042907_create_reviews_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_02_25_042907_create_reviews_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -261,8 +260,8 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="75" />
-    <option name="y" value="211" />
+    <option name="x" value="419" />
+    <option name="y" value="96" />
     <option name="width" value="1371" />
     <option name="height" value="675" />
   </component>
@@ -395,7 +394,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550743909384" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551070363204" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../SeniorProject" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -439,18 +438,17 @@
       <workItem from="1550542894010" duration="15516000" />
       <workItem from="1550640457499" duration="5760000" />
       <workItem from="1550721785495" duration="10851000" />
-      <workItem from="1551062107493" duration="6784000" />
+      <workItem from="1551062107493" duration="7053000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95295000" />
+    <option name="totallyTimeSpent" value="95564000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="75" y="211" width="1371" height="675" extended-state="0" />
-    <editor active="true" />
+    <frame x="419" y="96" width="1371" height="675" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34339622" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.34339622" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -468,7 +466,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.45056602" visible="true" weight="0.1904762" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.45056602" visible="true" weight="0.1904762" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.54943395" side_tool="true" visible="true" weight="0.1904762" />
       <window_info active="true" anchor="bottom" id="Thumbnails" order="13" visible="true" weight="0.328877" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
