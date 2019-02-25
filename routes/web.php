@@ -327,3 +327,9 @@ Route::get('collection',function (){
 
     return (string) $product;
 });
+
+//API
+Route::apiResource('APIS','APIController');
+Route::group(['prefix'=>'APIS'],function (){
+    Route::apiResource('{API}/reviews','ReviewController');
+});
