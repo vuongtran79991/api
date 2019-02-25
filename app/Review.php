@@ -3,10 +3,10 @@
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
-use App\API;
+use App\Product;
 class Review extends Model
 {
     public function product(){
-        return $this->belongsTo(API::class);
+        return $this->belongsTo(Product::class);
     }
 }

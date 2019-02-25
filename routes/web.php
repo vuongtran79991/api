@@ -328,8 +328,8 @@ Route::get('collection',function (){
     return (string) $product;
 });
 
-//API
-Route::apiResource('APIS','APIController');
-Route::group(['prefix'=>'APIS'],function (){
-    Route::apiResource('{API}/reviews','ReviewController');
+//Product
+Route::apiResource('products','ProductController');
+Route::group(['prefix'=>'products'],function (){
+    Route::apiResource('{product}/reviews','ReviewController');
 });

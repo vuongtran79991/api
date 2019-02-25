@@ -2,10 +2,12 @@
 
 namespace App\Http\Controllers;
 
-use App\API;
+use App\Product;
+use App\Http\Resources\APIResource;
 use Illuminate\Http\Request;
+use function MongoDB\BSON\toJSON;
 
-class APIController extends Controller
+class ProductController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,7 +16,7 @@ class APIController extends Controller
      */
     public function index()
     {
-        //
+       return Product::all();
     }
 
     /**
@@ -41,21 +43,22 @@ class APIController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\API  $aPI
+     * @param  \App\Product  $aPI
      * @return \Illuminate\Http\Response
      */
-    public function show(API $aPI)
-    {
-        //
+    public function show(Product $product)
+    {   $data = new APIResource($product);
+        return $data;
+
     }
 
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\API  $aPI
+     * @param  \App\Product  $aPI
      * @return \Illuminate\Http\Response
      */
-    public function edit(API $aPI)
+    public function edit(Product $aPI)
     {
         //
     }
@@ -64,10 +67,10 @@ class APIController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\API  $aPI
+     * @param  \App\Product  $aPI
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, API $aPI)
+    public function update(Request $request, Product $aPI)
     {
         //
     }
@@ -75,10 +78,10 @@ class APIController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\API  $aPI
+     * @param  \App\Product  $aPI
      * @return \Illuminate\Http\Response
      */
-    public function destroy(API $aPI)
+    public function destroy(Product $aPI)
     {
         //
     }
