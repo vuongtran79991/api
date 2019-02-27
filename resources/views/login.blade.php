@@ -96,9 +96,13 @@
         <p class="help is-danger">{{ $errors->first('psw') }}</p>
 
         <button type="submit">Login</button>
-        <label>
-            <input type="checkbox" checked="checked" name="remember"> Remember me
-        </label>
+        <ul class="rememberandforgotpass">
+            <li>
+                <input type="checkbox" id="brand1" value="">
+                <label for="brand1"><span></span>Remember me</label>
+                <a href="#">Forgot password?</a>
+            </li>
+        </ul>
     </div>
 
     <div class="container" style="background-color:#f1f1f1">
