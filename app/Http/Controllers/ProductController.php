@@ -103,8 +103,9 @@ class ProductController extends Controller
      * @param  \App\Product  $aPI
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Product $aPI)
+    public function destroy(Product $product)
     {
-        //
+        $product->delete();
+        return response(null,Response::HTTP_NO_CONTENT);
     }
 }
