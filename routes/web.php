@@ -11,7 +11,7 @@ use Illuminate\Support\Str;
 |
 */
 
-Route::get('/', function () {
+Route::get('', function () {
     return view('welcome');
 });
 Route::get('taobang', function () {
@@ -329,10 +329,14 @@ Route::get('collection',function (){
 });
 
 //Product
-Route::apiResource('products','ProductController');
-Route::group(['prefix'=>'products'],function (){
-    Route::apiResource('{product}/reviews','ReviewController');
-});
+//Route::apiResource('products','ProductController');
+//Route::group(['prefix'=>'products'],function (){
+//    Route::apiResource('{product}/reviews','ReviewController');
+//});
 Route::get('metmoi', function () {
     return view('metmoi');
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

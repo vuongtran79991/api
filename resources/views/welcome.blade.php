@@ -95,16 +95,16 @@
             </div>
         </div>
     <div>
-        @foreach($products->chunk(3) as $chunk)
-            <div class="row">
-                @foreach($chunk as $product)
-                    <div class="col-md-4">
-                        <h2>{{$product->name}}</h2>
-                        <p>{{$product->toan}}</p>
-                    </div>
-                    @endforeach
-            </div>
-            @endforeach
+        {{--@foreach($products->chunk(3) as $chunk)--}}
+            {{--<div class="row">--}}
+                {{--@foreach($chunk as $product)--}}
+                    {{--<div class="col-md-4">--}}
+                        {{--<h2>{{$product->name}}</h2>--}}
+                        {{--<p>{{$product->toan}}</p>--}}
+                    {{--</div>--}}
+                    {{--@endforeach--}}
+            {{--</div>--}}
+            {{--@endforeach--}}
     </div>
     </body>
 </html>

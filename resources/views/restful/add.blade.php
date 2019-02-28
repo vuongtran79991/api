@@ -29,7 +29,7 @@
                 @csrf
                 <div class="form-group">
                     <label for="lblHoTen">Họ Tên Học Sinh</label>
-                    <input type="text" class="form-control" name="txtHoTen" required />
+                    <input type="text" class="form-control" name="txtHoTen" value="<?php if (isset($_POST['txtHoTen'])){echo htmlentities($_POST['txtHoTen']);}?>"required />
                     <p class="help is-danger">{{ $errors->first('name') }}</p>
                 </div>
                 <div class="form-group">
